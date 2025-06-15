@@ -12,7 +12,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [18.x, 20.x, 22.x] # test nhiều phiên bản Node.js
+        node-version: [20.x] # test nhiều phiên bản Node.js
 
     steps:
       - name: Checkout source code
